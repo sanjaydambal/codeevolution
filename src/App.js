@@ -1,5 +1,6 @@
 
 import './App.css';
+import Myform from './Components/Myform';
 import PostForm from './Components/PostForm';
 import PostalList from './Components/PostalList';
 
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className="App">
      {/* <PostalList/> */}
-     <PostForm/>
+     {/* <PostForm/> */}
+     <Myform/>
     </div>
   );
 }
