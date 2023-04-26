@@ -1,6 +1,7 @@
 
 import './App.css';
 import ArrayHook from './Components/ArrayHook';
+import DataFetching from './Components/DataFetching';
 // import ClassCounter from './Components/ClassCounter';
 import HookCounter from './Components/HookCounter';
 import HookCounterTwo from './Components/HookCounterTwo';
@@ -27,7 +28,8 @@ function App() {
      {/* <HookUseEffect/> */}
      {/* <HookMouse/> */}
      {/* <MouseContainer/> */}
-     <IntervalHookCounter/>
+     {/* <IntervalHookCounter/> */}
+     <DataFetching/>
     </div>
   );
 }

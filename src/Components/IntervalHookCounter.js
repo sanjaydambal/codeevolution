@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
+
 function IntervalHookCounter() {
     const [count,setCount] = useState(0)
 
