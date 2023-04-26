@@ -6,6 +6,8 @@ import HookCounter from './Components/HookCounter';
 import HookCounterTwo from './Components/HookCounterTwo';
 import HookMouse from './Components/HookMouse';
 import HookUseEffect from './Components/HookUseEffect';
+import IntervalHookCounter from './Components/IntervalHookCounter';
+import MouseContainer from './Components/MouseContainer';
 import ObjectHook from './Components/ObjectHook';
 // import Myform from './Components/Myform';
 // import PostForm from './Components/PostForm';
@@ -23,7 +25,9 @@ function App() {
      {/* <ObjectHook/> */}
      {/* <ArrayHook/> */}
      {/* <HookUseEffect/> */}
-     <HookMouse/>
+     {/* <HookMouse/> */}
+     {/* <MouseContainer/> */}
+     <IntervalHookCounter/>
     </div>
   );
 }
