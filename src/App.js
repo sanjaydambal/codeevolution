@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 // import ArrayHook from './Components/ArrayHook';
 import CompC from './Components/CompC';
+import CounterOne from './Components/CounterOne';
+import CounterTwo from './Components/CounterTwo';
 // import DataFetching from './Components/DataFetching';
 // // import ClassCounter from './Components/ClassCounter';
 // import HookCounter from './Components/HookCounter';
@@ -33,11 +35,13 @@ function App() {
      {/* <MouseContainer/> */}
      {/* <IntervalHookCounter/> */}
      {/* <DataFetching/> */}
-     <userContext.Provider value={"Sanjay"}>
+     {/* <userContext.Provider value={"Sanjay"}>
       <channelContext.Provider value={"code-evolution"}>
      <CompC/>
      </channelContext.Provider>
-     </userContext.Provider>
+     </userContext.Provider> */}
+     {/* <CounterOne/> */}
+     <CounterTwo/>
     </div>
   );
 }
