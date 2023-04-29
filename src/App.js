@@ -6,6 +6,7 @@ import './App.css';
 // import CompB from './Components/CompB';
 import DataFetching1 from './Components/DataFetching1';
 import DataFetchingTwo from './Components/DataFetchingTwo';
+import ParentComp from './Components/ParentComp';
 // import CounterOne from './Components/CounterOne';
 // import CounterTwo from './Components/CounterTwo';
 // import CounterThree from './Components/CounterThree';
@@ -67,7 +68,8 @@ function App() {
     
     </CountContext.Provider> */}
     {/* <DataFetching1/> */}
-    <DataFetchingTwo/>
+    {/* <DataFetchingTwo/> */}
+    <ParentComp/>
     </div>
   );
 }
