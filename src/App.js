@@ -1,10 +1,13 @@
-import React from 'react';
+import React,{useReducer} from 'react';
 import './App.css';
 // import ArrayHook from './Components/ArrayHook';
-import CompC from './Components/CompC';
-import CounterOne from './Components/CounterOne';
-import CounterTwo from './Components/CounterTwo';
-import CounterThree from './Components/CounterThree';
+// import CompC from './Components/CompC';
+// import CompA from './Components/CompA';
+// import CompB from './Components/CompB';
+import DataFetching1 from './Components/DataFetching1';
+// import CounterOne from './Components/CounterOne';
+// import CounterTwo from './Components/CounterTwo';
+// import CounterThree from './Components/CounterThree';
 // import DataFetching from './Components/DataFetching';
 // // import ClassCounter from './Components/ClassCounter';
 // import HookCounter from './Components/HookCounter';
@@ -17,11 +20,23 @@ import CounterThree from './Components/CounterThree';
 // import Myform from './Components/Myform';
 // import PostForm from './Components/PostForm';
 // import PostalList from './Components/PostalList';
-export const userContext = React.createContext()
-export const channelContext = React.createContext()
+// export const userContext = React.createContext()
+// export const channelContext = React.createContext()
+// export const CountContext = React.createContext({count : 0})
+// const intialState = 0
+// const reducer = (state,action) => {
+//     switch(action){
+// case "Increment": return state+1
+// case "Decrement":return state-1
+// case "Reset": return intialState
+// default:return state
+//     }
+// }
 
 function App() {
+  // const [count,dispatch] = useReducer(reducer,intialState)
   return (
+    // <CountContext.Provider value={{countState:count,countDispatch:dispatch}}>
     <div className="App">
      {/* <PostalList/> */}
      {/* <PostForm/> */}
@@ -43,7 +58,14 @@ function App() {
      </userContext.Provider> */}
      {/* <CounterOne/> */}
      {/* <CounterTwo/> */}
-     <CounterThree/>
+     {/* <CounterThree/> */}
+     {/* <div>Count:{count}</div>
+     <CompA/>
+     <CompB/>
+     <CompC/>
+    
+    </CountContext.Provider> */}
+    <DataFetching1/>
     </div>
   );
 }

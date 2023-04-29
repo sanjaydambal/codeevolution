@@ -3,11 +3,12 @@ import CompF from './CompF'
 import { channelContext, userContext } from '../App'
 
 function CompE() {
-    const user = useContext(userContext)
-    const channel = useContext(channelContext)
+    // const user = useContext(userContext)
+    // const channel = useContext(channelContext)
   return (
     <div>
-        {user} - {channel}
+      <CompF/>
+        {/* {user} - {channel} */}
     </div>
   )
 }

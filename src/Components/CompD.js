@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { CountContext } from '../App'
 
-function CompF() {
+function CompD() {
     const countContext = useContext(CountContext)
   return (
     <div>
@@ -12,4 +12,4 @@ function CompF() {
   )
 }
 
-export default CompF
+export default CompD
