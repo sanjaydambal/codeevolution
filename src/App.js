@@ -14,6 +14,7 @@ import DocTitleOne from './Components/DocTitleOne';
 import DocTitleTwo from './Components/DocTitleTwo';
 import CounterOne1 from './Components/CounterOne1';
 import CounterTwo2 from './Components/CounterTwo2';
+import UserForm from './Components/UserForm';
 // import CounterOne from './Components/CounterOne';
 // import CounterTwo from './Components/CounterTwo';
 // import CounterThree from './Components/CounterThree';
@@ -82,8 +83,9 @@ function App() {
     {/* <HookTimer/> */}
     {/* <DocTitleOne/>
     <DocTitleTwo/> */}
-    <CounterOne1/>
-    <CounterTwo2/>
+    {/* <CounterOne1/>
+    <CounterTwo2/> */}
+    <UserForm/>
     </div>
   );
 }
