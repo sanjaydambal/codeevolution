@@ -10,6 +10,7 @@ import ParentComp from './Components/ParentComp';
 import Counter from './Components/Counter';
 import FocusInput from './Components/FocusInput';
 import HookTimer from './Components/HookTimer';
+import DocTitleOne from './Components/DocTitleOne';
 // import CounterOne from './Components/CounterOne';
 // import CounterTwo from './Components/CounterTwo';
 // import CounterThree from './Components/CounterThree';
@@ -75,7 +76,8 @@ function App() {
     {/* <ParentComp/> */}
     {/* <Counter/> */}
     {/* <FocusInput/> */}
-    <HookTimer/>
+    {/* <HookTimer/> */}
+    <DocTitleOne/>
     </div>
   );
 }
