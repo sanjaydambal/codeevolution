@@ -12,6 +12,8 @@ import FocusInput from './Components/FocusInput';
 import HookTimer from './Components/HookTimer';
 import DocTitleOne from './Components/DocTitleOne';
 import DocTitleTwo from './Components/DocTitleTwo';
+import CounterOne1 from './Components/CounterOne1';
+import CounterTwo2 from './Components/CounterTwo2';
 // import CounterOne from './Components/CounterOne';
 // import CounterTwo from './Components/CounterTwo';
 // import CounterThree from './Components/CounterThree';
@@ -78,8 +80,10 @@ function App() {
     {/* <Counter/> */}
     {/* <FocusInput/> */}
     {/* <HookTimer/> */}
-    <DocTitleOne/>
-    <DocTitleTwo/>
+    {/* <DocTitleOne/>
+    <DocTitleTwo/> */}
+    <CounterOne1/>
+    <CounterTwo2/>
     </div>
   );
 }
