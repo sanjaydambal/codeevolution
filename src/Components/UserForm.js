@@ -1,23 +1,27 @@
 import React, { useState } from 'react'
+import useInput from '../Hooks/useInput'
 
 
 function UserForm() {
-    const [fName,setFname] = useState("")
-    const [lName,setLname] = useState("")
+    const [fName,bindFname,resetFname]= useInput("")
+    const [lName,bindLname,resetLname]= useInput("")
+    
     const submitHandler = (e) => {
        e.preventDefault()
        alert(`Love You ${fName} & ${lName}`)
+       resetFname()
+       resetLname()
     }
   return (
     <div>
         <form onSubmit={submitHandler}>
             <div>
                 <label>First-Name: </label>
-                <input type='text' value={fName} onChange={(e)=> setFname(e.target.value)}></input>
+                <input type='text' {...bindFname}></input>
                 </div>
                 <div>
                 <label>Last-Name: </label>
-                <input type='text' value={lName} onChange={(e)=> setLname(e.target.value)}></input>
+                <input type='text' {...bindLname}></input>
                 </div>
                 <div>
                 <button>Submit</button>
