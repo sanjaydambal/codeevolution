@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import useDocTitle from '../Hooks/useDocTitle'
 
-function DocTitleOne() {
+function DocTitleTwo() {
     const[count,setCount] = useState(0)
     
     useDocTitle(count)
@@ -12,4 +12,4 @@ function DocTitleOne() {
   )
 }
 
-export default DocTitleOne
+export default DocTitleTwo
