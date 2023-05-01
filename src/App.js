@@ -15,6 +15,7 @@ import DocTitleTwo from './Components/DocTitleTwo';
 import CounterOne1 from './Components/CounterOne1';
 import CounterTwo2 from './Components/CounterTwo2';
 import UserForm from './Components/UserForm';
+import Parent from './Practice/Parent';
 // import CounterOne from './Components/CounterOne';
 // import CounterTwo from './Components/CounterTwo';
 // import CounterThree from './Components/CounterThree';
@@ -85,7 +86,8 @@ function App() {
     <DocTitleTwo/> */}
     {/* <CounterOne1/>
     <CounterTwo2/> */}
-    <UserForm/>
+    {/* <UserForm/> */}
+    <Parent/>
     </div>
   );
 }
