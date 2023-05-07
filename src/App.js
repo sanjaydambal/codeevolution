@@ -1,21 +1,22 @@
-import React,{useReducer} from 'react';
+import React from 'react';
 import './App.css';
 // import ArrayHook from './Components/ArrayHook';
 // import CompC from './Components/CompC';
 // import CompA from './Components/CompA';
 // import CompB from './Components/CompB';
-import DataFetching1 from './Components/DataFetching1';
-import DataFetchingTwo from './Components/DataFetchingTwo';
-import ParentComp from './Components/ParentComp';
-import Counter from './Components/Counter';
-import FocusInput from './Components/FocusInput';
-import HookTimer from './Components/HookTimer';
-import DocTitleOne from './Components/DocTitleOne';
-import DocTitleTwo from './Components/DocTitleTwo';
-import CounterOne1 from './Components/CounterOne1';
-import CounterTwo2 from './Components/CounterTwo2';
-import UserForm from './Components/UserForm';
-import Parent from './Practice/Parent';
+// import DataFetching1 from './Components/DataFetching1';
+// import DataFetchingTwo from './Components/DataFetchingTwo';
+// import ParentComp from './Components/ParentComp';
+// import Counter from './Components/Counter';
+// import FocusInput from './Components/FocusInput';
+// import HookTimer from './Components/HookTimer';
+// import DocTitleOne from './Components/DocTitleOne';
+// import DocTitleTwo from './Components/DocTitleTwo';
+// import CounterOne1 from './Components/CounterOne1';
+// import CounterTwo2 from './Components/CounterTwo2';
+// import UserForm from './Components/UserForm';
+// import Parent from './Practice/Parent';
+import UseReducerCounter from './Practice/UseReducerCounter';
 // import CounterOne from './Components/CounterOne';
 // import CounterTwo from './Components/CounterTwo';
 // import CounterThree from './Components/CounterThree';
@@ -87,7 +88,8 @@ function App() {
     {/* <CounterOne1/>
     <CounterTwo2/> */}
     {/* <UserForm/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    <UseReducerCounter/>
     </div>
   );
 }
